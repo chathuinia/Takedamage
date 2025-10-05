@@ -1,3 +1,5 @@
+public AudioSource Audiosource;
+public Audioclip damagesound
 public void TakeDamage(int damage)
 {
     health -= damage;
