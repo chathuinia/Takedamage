@@ -22,4 +22,11 @@ public class Platform : MonoBehaviour
             isActive = true;
         }
     }
+
+    void OnTriggerExit(Collider other) {
+        if (other.tag == "Player")
+        {
+            isActive = false;
+        }
+    }
 }
